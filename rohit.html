@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="./rohit.css"
+<head>
+<title>ROHIT SHARMA</title>
+<link rel = "icon" href = 
+"https://i.pinimg.com/736x/04/ca/82/04ca82a69a68cedcde8cc78afc909254.jpg" 
+        type = "image/x-icon">
+</head>
+
+<body>
+    <div id="wrapper">
+      <div class="container">
+        <div class="v"></div>
+        <h1 class="K">ROHIT SHARMA</h1>
+      </div>
+      <div class="ul-flex">
+        <div class="title1">
+          <div class="mr-auto">
+            <a href="https://in.pinterest.com/abhinavakrishna145/rohit-sharma/"
+              >IMAGES</a
+            >
+          </div>
+          <div>
+            <select name="players" id="players">
+              
+              <option disabled selected value="Choose a Player">---Select---</option>
+              <option value="VIRAT KOHLI">VIRAT KOHLI</option>
+              <option value="MS DHONI">MS DHONI</option>
+              <option value="AB DE VILLIERS">ABD</option>
+              <option value="RAVINDRA JADEJA">JADEJA</option>
+              <option value="KL RAHUL">KL RAHUL</option>
+            </select>
+          </div>
+        </div>
+        <a
+          id="sample"
+          title="Videos"
+          href="https://pagalstatus.com/rohit-sharma-whatsapp-status-video.html"
+          >VIDEOS</a
+        >
+        <a
+          id="sample"
+          title="Records"
+          href="https://www.espncricinfo.com/player/rohit-sharma-34102/tests-odi-t20-records"
+          >RECORDS</a
+        >
+        <a
+          id="sample"
+          title="Quizzes"
+          href="https://www.cricbuzz.com/cricket-quiz/8/how-well-do-you-know-rohit-sharma"
+          >QUIZZES</a
+        >
+        <a
+          id="sample"
+          title="Map"
+          href="https://twitter.com/ImRo45?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          >TWITTER</a
+        >
+      </div>
+    </div>
+
+    <!-- <div id="playerrow">
+        <label for="players">Choose a Player:</label>
+    </div> -->
+    <script>
+        alert("Welcome To 'ROHIT SHARMA' Page"); 
+      document
+        .getElementById("players")
+        .addEventListener("change", function () {
+          val = document.getElementById("players");
+
+          console.log(val.value);
+          if (val.value === "MS DHONI") {
+            window.open("./Dhoni.html", "_self");
+          }
+          else if(val.value === "VIRAT KOHLI"){
+            window.open("./index.html", "_self"); }
+            else if(val.value === "AB DE VILLIERS"){
+              window.open("./abd.html", "_self");
+            }
+            else if(val.value === "RAVINDRA JADEJA"){
+              window.open("./jadeja.html", "_self");
+            }
+            else{
+              window.open("./rahul.html", "_self");
+            }
+
+        });
+    </script>
+  </body>
+</html>

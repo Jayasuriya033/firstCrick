@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="./rahul.css" />
+  <link rel = "icon" href = 
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo9Gy1-eZV1V7gfIiSIOqFkyRAXGqFP_v5ZwAiy8wVZxB8IEbzUeDPoE3PdqxVAOxWl3s&usqp=CAU" 
+          type = "image/x-icon">
+  <head>
+    <title>KL RAHUL</title>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <div class="v"></div>
+        <h1 class="K" >KL RAHUL</h1>
+      </div>
+      <div class="ul-flex">
+        <div class="title1">
+          <div class="mr-auto">
+            <a href="https://in.pinterest.com/Sareen033/kl-rahul/"
+              >IMAGES</a
+            >
+          </div>
+          <div>
+            <select name="players" id="players">
+              <option class="c" disabled selected value="Choose a Player">---Select---</option>
+              <option value="VIRAT KOHLI">VIRAT KOHLI</option>
+              <option class="c" value="MS DHONI">MS DHONI</option>
+              <option class="c"value="ROHIT SHARMA">ROHIT</option>
+              <option class="c" value="AB DE VILLIERS">ABD</option>
+              <option class="c" value="RAVINDRA JADEJA">JADEJA</option>
+            </select>
+          </div>
+        </div>
+    
+        <a
+          id="sample"
+          title="Videos"
+          href="https://pagalstatus.com/kl-rahul-whatsapp-status-video.html"
+          >VIDEOS</a
+        >
+        <a
+          id="sample"
+          title="Records"
+          href="https://www.cricbuzz.com/profiles/8733/kl-rahul"
+          >RECORDS</a
+        >
+        <a
+          id="sample"
+          title="Quizzes"
+          href="https://ezeedigi.com/trivia/quiz-on-kl-rahul/"
+          >QUIZZES</a
+        >
+        <a
+          id="sample"
+          title="Map"
+          href="https://twitter.com/klrahul11?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          >TWITTER</a
+        >
+      </div>
+    </div>
+
+    <!-- <div id="playerrow">
+        <label for="players">Choose a Player:</label>
+    </div> -->
+    <script>
+        alert("Welcome To 'KL RAHUL' Page"); 
+      document
+        .getElementById("players")
+        .addEventListener("change", function () {
+          val = document.getElementById("players");
+
+          console.log(val.value);
+          if (val.value === "MS DHONI") {
+            window.open("./Dhoni.html", "_self");
+            
+          }
+          else if(val.value === "ROHIT SHARMA"){
+            window.open("./rohit.html", "_self"); }
+            else if(val.value === "AB DE VILLIERS"){
+              window.open("./abd.html", "_self");
+            }
+            else if(val.value === "RAVINDRA JADEJA"){
+              window.open("./jadeja.html", "_self");
+            }
+            else{
+              window.open("./index.html", "_self");
+            }
+
+        });
+    </script>
+  </body>
+</html>

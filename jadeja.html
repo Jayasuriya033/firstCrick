@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="./jadeja.css" />
+  <head>
+    <title>RAVINDRA JADEJA</title>
+    <link rel = "icon" href = 
+"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuYr10gNn_FQ7Eo1lyz5qGrImGq9YoOlj7yIqx9V2fjANpZ7iCZJF-vHx6_QRNv_kKS3k&usqp=CAU" 
+        type = "image/x-icon">
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <div class="v"></div>
+        <h1 class="K" >RAVINDRA JADEJA</h1>
+      </div>
+      <div class="ul-flex">
+        <div class="title1">
+          <div class="mr-auto">
+            <a href="https://in.pinterest.com/vijayavanipalla/ravindra-jadeja/"
+              >IMAGES</a
+            >
+          </div>
+          <div>
+            <select name="players" id="players">
+              <option class="c" disabled selected value="Choose a Player">---Select---</option>
+              <option value="VIRAT KOHLI">VIRAT KOHLI</option>
+              <option class="c" value="MS DHONI">MS DHONI</option>
+              <option class="c"value="ROHIT SHARMA">ROHIT</option>
+              <option class="c" value="AB DE VILLIERS">ABD</option>
+              <option class="c" value="KL RAHUL">KL RAHUL</option>
+            </select>
+          </div>
+        </div>
+    
+        <a
+          id="sample"
+          title="Videos"
+          href="https://mobstatus.com/ravindra-jadeja-whatsapp-status-video/"
+          >VIDEOS</a
+        >
+        <a
+          id="sample"
+          title="Records"
+          href="https://www.cricbuzz.com/profiles/587/ravindra-jadeja"
+          >RECORDS</a
+        >
+        <a
+          id="sample"
+          title="Quizzes"
+          href="https://en.wikipedia.org/wiki/Ravindra_Jadeja"
+          >ABOUT</a
+        >
+        <a
+          id="sample"
+          title="Map"
+          href="https://twitter.com/imjadeja?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          >TWITTER</a
+        >
+      </div>
+    </div>
+
+    <!-- <div id="playerrow">
+        <label for="players">Choose a Player:</label>
+    </div> -->
+    <script>
+        alert("Welcome To 'RAVINDRA JADEJA' Page"); 
+      document
+        .getElementById("players")
+        .addEventListener("change", function () {
+          val = document.getElementById("players");
+
+          console.log(val.value);
+          if (val.value === "MS DHONI") {
+            window.open("./Dhoni.html", "_self");
+          }
+          else if(val.value === "ROHIT SHARMA"){
+            window.open("./rohit.html", "_self"); }
+            else if(val.value === "AB DE VILLIERS"){
+              window.open("./abd.html", "_self");
+            }
+            else if(val.value === "VIRAT KOHLI"){
+              window.open("./jadeja.html", "_self");
+            }
+            else{
+              window.open("./rahul.html", "_self");
+            }
+
+        });
+    </script>
+  </body>
+</html>

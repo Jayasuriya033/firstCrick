@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="./style.css" />
+  <head>
+    <title style="font-family:Times New Roman; font-style: italic;" >VIRAT KOHLI</title>
+    <link rel = "icon" href = 
+"https://bsmedia.business-standard.com/_media/bs/img/topic-profile/profile-images/thumb/463_463/1559746194.png" 
+        type = "image/x-icon">
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <div class="v"></div>
+        <h1 class="K" >VIRAT KOHLI</h1>
+      </div>
+      <div class="ul-flex">
+        <div class="title1">
+          <div class="mr-auto">
+            <a href="https://www.pinterest.com/hasni_haleem/virat-kohli/"
+              >IMAGES</a
+            >
+          </div>
+          <div>
+            <select name="players" id="players">
+              <option class="c" disabled selected value="Choose a Player">---Select---</option>
+              <option class="c" value="MS DHONI">MS DHONI</option>
+              <option class="c"value="ROHIT SHARMA">ROHIT</option>
+              <option class="c" value="AB DE VILLIERS">ABD</option>
+              <option class="c" value="RAVINDRA JADEJA">JADEJA</option>
+              <option class="c" value="KL RAHUL">KL RAHUL</option>
+            </select>
+          </div>
+        </div>
+    
+        <a
+          id="sample"
+          title="Videos"
+          href="https://allvideostatus.com/virat-kohli-whatsapp-status-video.html"
+          >VIDEOS</a
+        >
+        <a
+          id="sample"
+          title="Records"
+          href="https://www.espncricinfo.com/player/virat-kohli-253802/tests-odi-t20-records"
+          >RECORDS</a
+        >
+        <a
+          id="sample"
+          title="Quizzes"
+          href="https://www.bestfunquiz.com/q/ultimate-trivia-quiz-on-virat-kohli"
+          >QUIZZES</a
+        >
+        <a
+          id="sample"
+          title="Map"
+          href="https://twitter.com/imVkohli?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          >TWITTER</a
+        >
+      </div>
+    </div>
+
+    <!-- <div id="playerrow">
+        <label for="players">Choose a Player:</label>
+    </div> -->
+    <script>
+      var name=prompt('Enter Your Name: ');
+      alert('Hello, '+name+'!')
+      alert("Welcome To 'VIRAT KOHLI' Page");  
+    
+      document
+        .getElementById("players")
+        .addEventListener("change", function () {
+          val = document.getElementById("players");
+
+          console.log(val.value);
+          if (val.value === "MS DHONI") {
+            window.open("./Dhoni.html", "_self");
+          }
+          else if(val.value === "ROHIT SHARMA"){
+            window.open("./rohit.html", "_self"); }
+            else if(val.value === "AB DE VILLIERS"){
+              window.open("./abd.html", "_self");
+            }
+            else if(val.value === "RAVINDRA JADEJA"){
+              window.open("./jadeja.html", "_self");
+            }
+            else{
+              window.open("./rahul.html", "_self");
+            }
+
+        });
+        
+    </script>
+  </body>
+</html>

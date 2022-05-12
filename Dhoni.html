@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="./dhoni.css"
+<head>
+<title>MS DHONI</title>
+<link rel = "icon" href = 
+"https://thelogoman.in/wp-content/uploads/2019/06/Kholi-2.jpg" 
+        type = "image/x-icon">
+</head>
+
+<body>
+    <div id="wrapper">
+      <div class="container">
+        <div class="v"></div>
+        <h1 class="K">MS DHONI</h1>
+      </div>
+      <div class="ul-flex">
+        <div class="title1">
+          <div class="mr-auto">
+            <a href="https://www.pinterest.com/alish013/ms-dhoni/"
+              >IMAGES</a
+            >
+          </div>
+          <div>
+            <select name="players" id="players">
+              
+              <option disabled selected value="Choose a Player">---Select---</option>
+              <option value="VIRAT KOHLI">VIRAT KOHLI</option>
+              <option value="ROHIT SHARMA">ROHIT</option>
+              <option value="AB DE VILLIERS">ABD</option>
+              <option value="RAVINDRA JADEJA">JADEJA</option>
+              <option value="KL RAHUL">KL RAHUL</option>
+            </select>
+          </div>
+        </div>
+        <a
+          id="sample"
+          title="Videos"
+          href="https://whatsappstatusline.com/ms-dhoni-whatsapp-status-video.html"
+          >VIDEOS</a
+        >
+        <a
+          id="sample"
+          title="Records"
+          href="https://www.espncricinfo.com/player/ms-dhoni-28081"
+          >RECORDS</a
+        >
+        <a
+          id="sample"
+          title="Quizzes"
+          href="http://quizglory.soronsystems.co.in/play.php?quizid=311"
+          >QUIZZES</a
+        >
+        <a
+          id="sample"
+          title="Map"
+          href="https://twitter.com/msdhoni"
+          >TWITTER</a
+        >
+      </div>
+    </div>
+
+    <!-- <div id="playerrow">
+        <label for="players">Choose a Player:</label>
+    </div> -->
+    <script>
+        alert("Welcome To 'MS DHONI' Page"); 
+      document
+        .getElementById("players")
+        .addEventListener("change", function () {
+          val = document.getElementById("players");
+
+          console.log(val.value);
+          if (val.value === "VIRAT KOHLI") {
+            window.open("./index.html", "_self");
+          }
+          else if(val.value === "ROHIT SHARMA"){
+            window.open("./rohit.html", "_self"); }
+            else if(val.value === "AB DE VILLIERS"){
+              window.open("./abd.html", "_self");
+            }
+            else if(val.value === "RAVINDRA JADEJA"){
+              window.open("./jadeja.html", "_self");
+            }
+            else{
+              window.open("./rahul.html", "_self");
+            }
+
+        });
+    </script>
+  </body>
+</html>

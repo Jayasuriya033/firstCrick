@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="./abd.css" />
+  <head>
+    <title>AB DE VILLIERS</title>
+    <link rel = "icon" href = 
+    "https://cdngoogle.sharechat.com/effd48e7-ddb3-43e5-af1b-20ceefe9dc16-5691176a-8dfe-470f-9e24-a8cd7e469e2e.jpeg" 
+            type = "image/x-icon">
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <div class="v"></div>
+        <h1 class="K" >AB DE VILLIERS</h1>
+      </div>
+      <div class="ul-flex">
+        <div class="title1">
+          <div class="mr-auto">
+            <a href="https://www.pinterest.com/pin/394557617356789030/"
+              >IMAGES</a
+            >
+          </div>
+          <div>
+            <select name="players" id="players">
+              <option class="c" disabled selected value="Choose a Player">---Select---</option>
+              <option value="VIRAT KOHLI">VIRAT KOHLI</option>
+              <option class="c" value="MS DHONI">MS DHONI</option>
+              <option class="c"value="ROHIT SHARMA">ROHIT</option>
+              <option class="c" value="RAVINDRA JADEJA">JADEJA</option>
+              <option class="c" value="KL RAHUL">KL RAHUL</option>
+            </select>
+          </div>
+        </div>
+    
+        <a
+          id="sample"
+          title="Videos"
+          href="https://stronghealthtoday.com/ab-de-villiers-whatsapp-status-video-download-abd-fans/"
+          >VIDEOS</a
+        >
+        <a
+          id="sample"
+          title="Records"
+          href="https://www.espncricinfo.com/player/ab-de-villiers-44936"
+          >RECORDS</a
+        >
+        <a
+          id="sample"
+          title="Quizzes"
+          href="https://wisden.com/play-and-win/quizzes/quiz-the-ultimate-ab-de-villiers-quiz"
+          >QUIZZES</a
+        >
+        <a
+          id="sample"
+          title="Map"
+          href="https://twitter.com/ABdeVilliers17?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          >TWITTER</a
+        >
+      </div>
+    </div>
+
+    <!-- <div id="playerrow">
+        <label for="players">Choose a Player:</label>
+    </div> -->
+    <script>
+       alert("Welcome To 'AB DE VILLIERS' Page"); 
+      document
+        .getElementById("players")
+        .addEventListener("change", function () {
+          val = document.getElementById("players");
+
+          console.log(val.value);
+          if (val.value === "MS DHONI") {
+            window.open("./Dhoni.html", "_self");
+          }
+          else if(val.value === "ROHIT SHARMA"){
+            window.open("./rohit.html", "_self"); }
+            else if(val.value === "VIRAT KOHLI"){
+              window.open("./index.html", "_self");
+            }
+            else if(val.value === "RAVINDRA JADEJA"){
+              window.open("./jadeja.html", "_self");
+            }
+            else{
+              window.open("./rahul.html", "_self");
+            }
+
+        });
+    </script>
+  </body>
+</html>

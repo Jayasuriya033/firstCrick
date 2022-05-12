@@ -1,0 +1,226 @@
+h1 {
+    text-align: center;
+    font-size: 60px;
+    background-color: rgb(144, 127, 144);
+    letter-spacing: 2px;
+  }
+  #wrapper {
+    width: 100%;
+  }
+  body {
+    /* background-image: url('https://swall.teahub.io/photos/small/300-3005336_full-hd-virat-kohli.jpg'); */
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    min-height: 100vh;
+    /* border: 10px solid rgb(134, 212, 17); */
+    animation: test 30s infinite;
+  }
+  @-webkit-keyframes test {
+    0% {
+      background-image: url("https://wallpaperaccess.com/full/1869002.jpg");
+    }
+    20% {
+      background-image: url("https://www.bhmpics.com/download/ab_de_villiers_batting-1920x1080.jpg");
+    }
+    40% {
+      background-image: url("https://wallpapercave.com/wp/wp4555150.jpg");
+    }
+    60% {
+      background-image: url("https://www.eaglesvine.com/wp-content/uploads/2021/04/In-Pics-AB-de-Villiers-stars-as-Royal-Challengers.cms.jpeg");
+    }
+    80% {
+      background-image: url("https://wallpapercave.com/wp/wp5114661.jpg");
+    }
+    100% {
+      background-image: url("https://wallpaperaccess.com/full/1869009.jpg");
+    }
+  }
+  #playerrow {
+    display: inline;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .c{
+    background-color: rgb(90, 151, 151);
+  }
+  /* ---------------Animation of images,videos some like tags-------------- */
+  .title1 {
+    width: 10%;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+  }
+  .ul-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* background-color: brown; */
+  }
+  
+  #players {
+    position: absolute;
+    right: 50px;
+    padding: 10 px;
+  }
+  a,
+  #sample {
+    width: 120px !important;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 234, 255);
+    font-size: 150%;
+    animation: tag 6s infinite;
+    border: 5px solid rgb(214, 23, 23);
+    background-color: rgb(36, 35, 32);
+  }
+  @keyframes tag {
+    0% {
+      color: rgb(8, 246, 0);
+    }
+    50% {
+      color: rgb(76, 47, 240);
+    }
+    75% {
+      color: rgb(223, 86, 223);
+    }
+    100% {
+      color: rgb(140, 0, 255);
+    }
+  }
+  /* --------------------Animation of virat kohli ----------------------- */
+  .K {
+    color: rgb(255, 0, 43);
+    animation: logo 8s infinite;
+    border: 5px solid rgb(15, 13, 13);
+  }
+  @keyframes logo {
+    0% {
+      color: rgb(0, 0, 0);
+    }
+    25% {
+      color: rgb(37, 126, 15);
+    }
+    50% {
+      color: rgb(183, 0, 255);
+    }
+    75% {
+      color: yellow;
+    }
+    100% {
+      color: rgb(0, 204, 255);
+    }
+  }
+  /* -------------------Animation around virat kohli---------------------------  */
+  .v {
+    width: 5px;
+    height: 5px;
+    left: 190px;
+    background: red;
+    position: relative;
+    -webkit-animation: myfirst 3s; /* Chrome, Safari, Opera */
+    animation: myfirst 8s infinite;
+  }
+  @keyframes myfirst {
+    0% {
+      background: rgb(185, 41, 41);
+      left: 5px;
+      top: 40px;
+    }
+    25% {
+      background: rgb(37, 126, 15);
+      left: 521px;
+      top: 40px;
+      transform: rotate(-90deg);
+    }
+    50% {
+      background: rgb(183, 0, 255);
+      left: 521px;
+      top: 113px;
+      transform: rotate(90deg);
+    }
+    75% {
+      background: yellow;
+      left: 5px;
+      top: 113px;
+      transform: rotate(-90deg);
+    }
+    100% {
+      background: rgb(0, 204, 255);
+      left: 5px;
+      top: 40px;
+      transform: rotate(90deg);
+    }
+  }
+  select {
+    font-size: 150%;
+    width: 200px;
+    letter-spacing: 1px;
+    text-align:center;
+    color: rgb(255, 0, 43);
+    animation: logo2 8s infinite;
+  }
+  @keyframes logo2 {
+    0% {
+      color: rgb(255, 5, 5);
+    }
+    25% {
+      color: rgb(183, 0, 255);
+    }
+    50% {
+      color: rgb(52, 255, 1);
+    }
+    75% {
+      color: rgb(0, 204, 255);
+    }
+    100% {
+      color: rgb(0, 68, 255);
+    }
+  }
+  /* #VIRAT-KOHLI{
+         text-shadow: 0 -3px o rgb(126, 160, 75);
+     } */
+  
+  label {
+    color: brown;
+    font-size: 200%;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+    float: right;
+    letter-spacing: 1px;
+    height: 100;
+    text-align: end;
+    color: rgb(255, 0, 43);
+    animation: logo1 8s infinite;
+  }
+  @keyframes logo1 {
+    100% {
+      color: rgb(255, 5, 5);
+    }
+    75% {
+      color: rgb(52, 255, 1);
+    }
+    0% {
+      color: rgb(183, 0, 255);
+    }
+    50% {
+      color: rgb(0, 4, 255);
+    }
+    25% {
+      color: rgb(0, 204, 255);
+    }
+  }
+  
